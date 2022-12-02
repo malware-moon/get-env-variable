@@ -1,0 +1,19 @@
+{
+  "name": "get-env-variable",
+  "version": "1.0.1",
+  "description": "Package that contains a function for grabbing environment variables",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "get",
+    "environment",
+    "variable"
+  ],
+  "author": "https://github.com/malware-moon",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
+}
