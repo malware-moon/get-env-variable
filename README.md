@@ -8,9 +8,8 @@ A dead simple package for getting environment variables.
 npm i get-env-variable
 ```
 
-
 ### Usage
-Both export and default export is available
+Both export and default export are available
 ``` javascript
 import { getEnvironmentVariable } from 'get-env-variable'
 

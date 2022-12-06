@@ -6,7 +6,7 @@ export const getEnvironmentVariable = (
     defaultValue?: string,
   ): string => {
     const value = process.env[variable];
-    if (value) {
+    if (value !== undefined) {
         return value;
     }
     if (defaultValue !== undefined) {
